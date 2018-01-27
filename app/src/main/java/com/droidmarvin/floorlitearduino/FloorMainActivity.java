@@ -2,6 +2,7 @@ package com.droidmarvin.floorlitearduino;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.LinearLayout;
 
 import com.google.firebase.database.DatabaseReference;
@@ -22,7 +23,33 @@ public class FloorMainActivity extends AppCompatActivity {
         mLayoutC = findViewById(R.id.light_c);
         mLayoutD = findViewById(R.id.light_c);
 
+        mLayoutA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+            }
+        });
+
+        mLayoutB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        mLayoutC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        mLayoutD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }
 

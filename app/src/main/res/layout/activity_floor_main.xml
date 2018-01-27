@@ -81,6 +81,7 @@ android:gravity="center">
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
+                android:id="@+id/image_b"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:background="@drawable/circlebackgroundgreen"
@@ -139,6 +140,7 @@ android:gravity="center">
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
+                android:id="@+id/image_c"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:background="@drawable/circlebackgroundyello"
@@ -185,6 +187,7 @@ android:gravity="center">
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
+                android:id="@+id/image_d"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:background="@drawable/circlebackgroundyello"

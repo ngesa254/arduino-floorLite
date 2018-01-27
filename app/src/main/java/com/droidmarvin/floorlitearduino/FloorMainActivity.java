@@ -15,7 +15,7 @@ public class FloorMainActivity extends AppCompatActivity {
 
     private LinearLayout mLayoutA, mLayoutB, mLayoutC, mLayoutD;
 
-    private ImageView imageA;
+    private ImageView imageA,imageB, imageC, imageD ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,12 @@ public class FloorMainActivity extends AppCompatActivity {
         mLayoutD = findViewById(R.id.light_c);
 
         imageA.findViewById(R.id.image_a);
+        imageB.findViewById(R.id.image_b);
+        imageC.findViewById(R.id.image_c);
+        imageD.findViewById(R.id.image_d);
+
+
+
 
         mLayoutA.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,12 +51,26 @@ public class FloorMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                mLedReference = FirebaseDatabase.getInstance().getReference().
+                        child("Users").child("ledStatus");
+                mLedReference.setValue(1);
+
+                imageB.setBackgroundDrawable(getResources().
+                        getDrawable(R.drawable.circlebackgroundgrey));
+
             }
         });
 
         mLayoutC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                mLedReference = FirebaseDatabase.getInstance().getReference().
+                        child("Users").child("ledStatus");
+                mLedReference.setValue(1);
+
+                imageC.setBackgroundDrawable(getResources().
+                        getDrawable(R.drawable.circlebackgroundgrey));
 
             }
         });
@@ -59,6 +79,12 @@ public class FloorMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                mLedReference = FirebaseDatabase.getInstance().getReference().
+                        child("Users").child("ledStatus");
+                mLedReference.setValue(1);
+
+                imageD.setBackgroundDrawable(getResources().
+                        getDrawable(R.drawable.circlebackgroundgrey));
             }
         });
     }

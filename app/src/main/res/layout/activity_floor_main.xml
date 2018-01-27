@@ -26,8 +26,10 @@ android:gravity="center">
         >
 
         <LinearLayout
+            android:clickable="true"
             android:orientation="vertical"
             android:gravity="center"
+            android:id="@+id/light_a"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
@@ -71,8 +73,10 @@ android:gravity="center">
         >
 
         <LinearLayout
+            android:clickable="true"
             android:orientation="vertical"
             android:gravity="center"
+            android:id="@+id/light_b"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
@@ -127,8 +131,10 @@ android:gravity="center">
         >
 
         <LinearLayout
+            android:clickable="true"
             android:orientation="vertical"
             android:gravity="center"
+            android:id="@+id/light_c"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
@@ -171,8 +177,10 @@ android:gravity="center">
         >
 
         <LinearLayout
+            android:clickable="true"
             android:orientation="vertical"
             android:gravity="center"
+            android:id="@+id/light_d"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView

@@ -2,7 +2,7 @@
 
 🚨 ☁ 🔥 Build your own device that controls LEDs/Lights in different floors using Android, Arduino and Firebase 
 
-<img src="art/floorLite.png" alt="phone image" width="200px" />
+<img src="images/floorLite.png" alt="phone image" width="200px" />
 
 Setup Requirements
 ----------------

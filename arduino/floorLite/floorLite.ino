@@ -39,14 +39,14 @@ void loop() {
 
 
   l=Firebase.getString("S").toInt();//The value read from the firebase is read in the form of String and is converted into Integer
-//  if(l==1){
-//      digitalWrite(Ledpin,HIGH);
-//      Serial.println("lightON");
-//    }
-//    else if(l==0){
-//      digitalWrite(Ledpin,LOW);
-//      Serial.println("lightOFF");
-//    }
+  if(l==1){
+      digitalWrite(Ledpin,HIGH);
+      Serial.println("lightON");
+    }
+    else if(l==0){
+      digitalWrite(Ledpin,LOW);
+      Serial.println("lightOFF");
+    }
 
 } 
 

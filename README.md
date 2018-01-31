@@ -4,6 +4,9 @@
 
 Screenshot
 
+Image
+-----
+
 <img src="images/floorLite.png" alt="phone image" width="200px" />
 
 Setup Requirements

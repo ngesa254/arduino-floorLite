@@ -34,9 +34,7 @@ Prototype Schematic
 Firebase
 --------
 
-Getting Started With Google Firebase and Creating Your First Project
-
-Follow the steps
+To get started, you need to:
 
 1.  Sign In to Firebase with your Google account.
 

@@ -11,6 +11,9 @@
 void setup() {
   // put your setup code here, to run once:
 
+  Serial.begin(115200); //baud rate ,if you want to see the process in the serial monitor ,same baud rate should be set.
+  pinMode(Ledpin,OUTPUT);
+
 }
 
 void loop() {

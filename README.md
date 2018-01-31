@@ -44,6 +44,10 @@ To get started, you need to:
 
 4.  Now go to develop section and head over to database , and copy the project URL it'll be of the form
 
+https://xxxxxxxxxxxxxxxx.firebaseio.com/ -copy it.
+
+5.  Then go to rules section and perform the following changes or simply copy it and replace it with the below code
+
 Support
 --------
 

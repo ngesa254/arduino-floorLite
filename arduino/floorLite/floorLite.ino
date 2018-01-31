@@ -27,7 +27,14 @@ void firebasereconnect()
     Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
   }
 
+int l;
 void loop() {
   // put your main code here, to run repeatedly:
+
+   if (Firebase.failed()) {
+      Serial.print("setting number failed:");
+      Serial.println(Firebase.error());
+      firebasereconnect();
+      return;
 
 }

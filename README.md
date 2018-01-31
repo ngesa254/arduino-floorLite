@@ -70,3 +70,4 @@ References
 
 - Building an Online Presence System using Firebase Realtime Database - https://firebase.googleblog.com/2013/06/how-to-build-presence-system.html
 - Android Things Setup - https://developer.android.com/things/index.html
+- Controlling  NODEMCU ESP8266 1.0 12E with Firebase http://www.instructables.com/id/Controlling-an-NodeMCU-ESP8266-10-12E-With-Google-/

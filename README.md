@@ -38,13 +38,13 @@ Getting Started With Google Firebase and Creating Your First Project
 
 Follow the steps
 
-1.Sign In to Firebase with your Google account.
+1.  Sign In to Firebase with your Google account.
 
-2.Click on go to console and Add a new project and then give your project a name and give your region ,this is a very important step,if you select an incorrect region then your project might not work.
+2.  Click on go to console and Add a new project and then give your project a name and give your region ,this is a very important step,if you select an incorrect region then your project might not work.
 
-3.Head over to project settings on the right side of your console and hover to service accounts and copy your database secret note it somewhere for further usage,we'll be discussing later.
+3.  Head over to project settings on the right side of your console and hover to service accounts and copy your database secret note it somewhere for further usage,we'll be discussing later.
 
-4.Now go to develop section and head over to database , and copy the project URL it'll be of the form
+4.  Now go to develop section and head over to database , and copy the project URL it'll be of the form
 
 Support
 --------

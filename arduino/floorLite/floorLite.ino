@@ -21,6 +21,12 @@ void setup() {
     delay(500);
 }
 
+void firebasereconnect()
+{
+  Serial.println("Trying to reconnect");
+    Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+  }
+
 void loop() {
   // put your main code here, to run repeatedly:
 

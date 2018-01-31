@@ -14,6 +14,11 @@ void setup() {
   Serial.begin(115200); //baud rate ,if you want to see the process in the serial monitor ,same baud rate should be set.
   pinMode(Ledpin,OUTPUT);
 
+  WiFi.begin(WIFI_SSID,WIFI_PASSWORD);
+  Serial.print("connecting");
+  while (WiFi.status()!=WL_CONNECTED){
+    Serial.print(".");
+    delay(500);
 }
 
 void loop() {
